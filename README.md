@@ -10,4 +10,43 @@ Download DeepASD.  The following command clones the current DeepASD repository f
 
     git clone https://github.com/CharlesDeng0814/DeepASD.git
     
-# Coming soon......
+### Environment Settings
+> python==3.7.0 \
+> scipy==1.1.0 \
+> torch==1.13.0+cu117 \
+> numpy==1.15.2 \
+> pandas==0.23.4 \
+> scikit_learn==0.19.2
+
+GPU: GeForce RTX 2080 11G \
+CPU: Intel(R) Xeon(R) Gold 6230 CPU @ 2.10GHz
+
+### Usage
+(1) After downloading and unzipping this repository, go into the folder. 
+
+(2) We have created examples of DeepASD for predicting ASD genes, namely 'main.py'.
+
+Assuming that you are currently in the downloaded folder, just run the following command and you will be able to build a model and make predictions:
+
+predicting ASD-associated genes
+```bash
+ 
+python main.py ./outputFile
+ 
+ ```
+ ### Input
+The input of DeepASD mainly consists of three parts: the brainSpan Atlas matrix, the incidence matrix of the annotated gene set, and the STRING PPI network. In the example, we demonstrated the use of DeepASD to integrate these three data to predict ASD-associated genes, which can be easily extended to other diseases.
+
+ ### Output
+The output of DeepASD is the ranking results and prediction scores of all genes.
+
+### Files
+*main.py*: Examples of DeepASD for predicting ASD-associated genes\
+*models.py*: DeepASD model \
+*train_pred.py*: Training and testing functions \
+*utils.py*: Supporting functions
+
+### Cite
+```
+
+```
