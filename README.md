@@ -24,7 +24,9 @@ CPU: Intel(R) Xeon(R) Gold 6230 CPU @ 2.10GHz
 ### Usage
 (1) After downloading and unzipping this repository, go into the folder. 
 
-(2) We have created examples of DeepASD for predicting ASD genes, namely 'main.py'.
+(2) Download the brainSpan feature matrix from https://drive.google.com/file/d/1nmpz9yWk7s_GzgKXUp0H4DU1il2cYm2E/view?usp=drive_link
+
+(3) We have created examples of DeepASD for predicting ASD genes, namely 'main.py'.
 
 Assuming that you are currently in the downloaded folder, just run the following command and you will be able to build a model and make predictions:
 
